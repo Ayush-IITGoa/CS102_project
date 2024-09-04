@@ -1,0 +1,32 @@
+.footer {
+
+    background-color: #d7dce1;
+    margin-top: 20px; 
+    top: 100vh;
+    position: relative;
+    width: 100%;
+
+
+  }
+  
+
+  h6 {
+    color: #343a40;
+  }
+  
+  ul.list-inline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+
+  

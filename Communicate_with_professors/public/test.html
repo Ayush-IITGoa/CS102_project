@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with Professor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="x-icon" href="iitgoalogo.webp">
+</head>
+<body>
+    <div class="nav_logo">   
+        <img class="nav_logo" src="cropped-iit_goa.png" alt="IIT Goa logo">
+    </div>
+    <nav>
+        <a href="" class="nav_op">Home</a>
+        <a href="" class="nav_op">About</a>
+        <a href="" class="nav_op">Services</a>
+        <a href="" class="nav_op">Contact</a>
+    </nav>
+
+  <main>
+   <div class="content">
+      <div class="des">
+        <div class="dp">
+          <img src="professor_icon(1).png" alt="" style="height: 50px; width: 50px; border: 1px solid black; border-radius: 50%;">
+        </div>
+        <div class="professor_des">
+          <div id="name">Professors</div>
+          <div class="status">
+            <div id="spot"></div>
+            <div id="stat"></div>
+          </div>
+        </div>
+      </div>
+      <div class="chatbox">
+      </div>
+      <div class="message_box">
+        <form action="#" id="send-container" style="margin: auto;">
+          <input type="text" placeholder="Enter message..." id="messageInp" name="messageInp">
+          <button type="submit">Send</button>
+        </form>
+      </div>
+   </div>
+  </main>
+  <script defer src="/socket.io/socket.io.js"></script>
+  <script defer src="client.js"></script>
+</body>
+</html>
